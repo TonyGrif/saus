@@ -12,6 +12,8 @@ jupyterlab = ">=4.5.5,<5"
 ipython = ">=9.11.0,<10"
 ruff = ">=0.15.5,<0.16"     # TODO: Dev only dependency
 ty = ">=0.0.21,<0.0.22"     # TODO: Dev only dependenc
+seaborn = ">=0.13.2,<0.14"
+xlrd = ">=2.0.2,<3"
 
 [build-system]
 build-backend = "hatchling.build"
