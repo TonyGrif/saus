@@ -2345,7 +2345,7 @@ packages:
 - pypi: ./
   name: saus
   version: 0.1.0
-  sha256: 95808dd6b99292c75803b6a368efeb0db1cf56f828f87470523a9f8cc15a7962
+  sha256: 11269b47169b523aaac4b7b04efdd94e0609772aa5fd5d53a273cf7d2b4a376b
   requires_python: '>=3.11'
   editable: true
 - conda: https://conda.anaconda.org/conda-forge/linux-64/scipy-1.17.1-py314hf07bd8e_0.conda

@@ -27,7 +27,7 @@ platforms = ["linux-64"]
 saus = { path = ".", editable = true }
 
 [tool.pixi.tasks]
-lint = "ruff format . & ruff check . --fix & ty check ."
+lint = "ruff format . && ruff check . --fix && ty check ."
 lab = "pixi run jupyter lab"
 
 [tool.ruff.lint]
